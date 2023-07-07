@@ -8,7 +8,6 @@ export function Home(){
   const [participants, setParticipants] = useState<string[]>([]);
   const [participantName, setParticipantName] = useState("");
 
-  //const participants = ["Lucas", "Ricardo", "Gabriel", "Caio", "Bruna", "João", "Marcela", "Clara", "Giulia", "Juan", "Aline", "Victor"];
     
   function handleParticipantAdd() {
     if(participants.includes(participantName)){
